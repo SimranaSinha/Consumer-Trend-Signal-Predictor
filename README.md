@@ -1,0 +1,1 @@
+# Consumer-Trend-Signal-Predictor
