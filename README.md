@@ -22,6 +22,7 @@ Most companies read reviews manually. This model does it automatically at scale.
 ---
 
 ## ⚙️ How it works
+```
 Raw Reviews (CSV)
 ↓
 Text Preprocessing
@@ -35,11 +36,13 @@ Trend Momentum Scoring — rising / stable / declining
 GPT-4o — business strategy report
 ↓
 Streamlit Dashboard
+```
 
 ---
 
 ## 🏗️ Project Structure
 
+```
 consumer-trend-predictor/
 ├── src/
 │   ├── ingestor.py        # Auto-detects columns from any CSV
@@ -51,7 +54,7 @@ consumer-trend-predictor/
 ├── app.py                 # Streamlit dashboard
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 🛠️ Quickstart
