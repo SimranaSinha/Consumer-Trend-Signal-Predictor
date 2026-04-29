@@ -39,7 +39,7 @@ Streamlit Dashboard
 ```
 
 ---
-## End-to-end means it covers the full lifecycle:
+## Full lifecycle:
 
 Data → Model → Insight → Product
 
