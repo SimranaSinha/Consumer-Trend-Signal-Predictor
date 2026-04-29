@@ -39,6 +39,30 @@ Streamlit Dashboard
 ```
 
 ---
+## End-to-end means it covers the full lifecycle:
+
+Data → Model → Insight → Product
+
+1. Data Layer
+- Accepts any raw CSV
+- Auto-detects columns
+- Cleans and preprocesses text
+
+2. Model Layer
+- Topic modeling (BERTopic)
+- Sentiment classification (RoBERTa)
+- Trend momentum scoring (time-series regression)
+
+3. Insight Layer
+- Combines all model outputs into a master results table
+- GPT-4o generates a real business intelligence report
+
+4. Product Layer
+- Streamlit dashboard anyone can use
+- Upload CSV → get results → download report
+- No code knowledge needed to use it
+
+---
 
 ## 🏗️ Project Structure
 
